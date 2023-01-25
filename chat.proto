@@ -4,7 +4,7 @@ option java_multiple_files = true;
 option java_package = "io.grpc.haley.oxidize";
 option java_outer_classname = "ChatProto";
 
-package oxidize;
+package oxidize_proto;
 
 service Chat{
     rpc SendMessage(Missive) returns (OperationSuccess){}
